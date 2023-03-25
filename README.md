@@ -1,7 +1,7 @@
 # My Personal Website.
-DBRajput.github.io
+https://DBRajput.github.io
 
-<li>New Domain: DBRajput.github.io</li>
+<li>New Domain: https://DBRajput.github.io/</li>
 <li>Default Repo: https://github.com/DBRajput/digvijaysing.github.io.git/</li>
 <li>Old Domain: www.Digvijaysing.tech</li>
 <li>Old Domain: www.BusyBoy.me</li>
