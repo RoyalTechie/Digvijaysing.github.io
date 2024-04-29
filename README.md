@@ -1,6 +1,6 @@
 # My Personal Website.
 
-https://MagiTech.site
+https://MagiTech.site  
 https://DBRajput.github.io/
 
 <li>Live Domain: https://MagiTech.site</li>
