@@ -22,6 +22,10 @@
 <li>Default Repo: https://github.com/DBRajput/digvijaysing.github.io.git/</li>
 <li>Old Repo: https://royaltechie.github.io/digvijaysing.github.io/</li>
 
+## Current Layout
+
+![New Website Layout](/assets/img/new_website.png)
+
 ## Previous Layout
 
 ![Website Layout](/assets/img/Website.png)
