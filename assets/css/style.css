@@ -31,10 +31,14 @@
 }
 
 .site-title {
+  margin-top: 5%;
   font-size: 35px;
   display: block;
   line-height: 1;
+  text-transform: uppercase;
   color: #fff;
+  font-weight: 600;
+  font-family: "Rubik", sans-serif;
 }
 
 @media only screen and (min-width: 550px) {
@@ -56,6 +60,114 @@
   .site-description {
     font-size: 40px;
   }
+}
+
+.fa-arrow-circle-o-down:before {
+  content: "\f01a";
+}
+
+.fa-volume-down:before {
+  content: "\f027";
+}
+
+.fa-arrow-down:before {
+  content: "\f063";
+}
+
+.fa-chevron-down:before {
+  content: "\f078";
+}
+
+.fa-thumbs-o-down:before {
+  content: "\f088";
+}
+
+.fa-hand-o-down:before {
+  content: "\f0a7";
+}
+
+.fa-arrow-circle-down:before {
+  content: "\f0ab";
+}
+
+.fa-caret-down:before {
+  content: "\f0d7";
+}
+
+.fa-sort-desc:before,
+.fa-sort-down:before {
+  content: "\f0dd";
+}
+
+.fa-angle-double-down:before {
+  content: "\f103";
+}
+
+.fa-angle-down:before {
+  content: "\f107";
+}
+
+.fa-chevron-circle-down:before {
+  content: "\f13a";
+}
+
+.fa-level-down:before {
+  content: "\f149";
+}
+
+.fa-caret-square-o-down:before,
+.fa-toggle-down:before {
+  content: "\f150";
+}
+
+.fa-thumbs-down:before {
+  content: "\f165";
+}
+
+.fa-long-arrow-down:before {
+  content: "\f175";
+}
+
+.fa-cart-arrow-down:before {
+  content: "\f218";
+}
+
+.down,
+.header-icons .icon {
+  color: #fff;
+  text-align: center;
+}
+
+.down {
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.down .icon {
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  fill: #fff;
+  -webkit-animation: pulse 1.3s infinite;
+  animation: pulse 1.3s infinite;
+}
+
+.down .icon:active,
+.down .icon:hover,
+.footer a:active,
+.footer a:hover {
+  color: #4b5664;
 }
 
 body {
@@ -148,7 +260,8 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  /* border: 8px solid #2c2f3f; */
+  border: 4px solid #fff;
 }
 
 #header .profile h1 {
@@ -170,7 +283,7 @@ h6 {
 #header .profile .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #212431;
+  background: #2740b6;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -180,6 +293,7 @@ h6 {
   width: 36px;
   height: 36px;
   transition: 0.3s;
+  border: white 1px solid;
 }
 
 #header .profile .social-links a:hover {
@@ -226,7 +340,7 @@ h6 {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: #888ba1;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -237,7 +351,7 @@ h6 {
 .nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
-  color: #6f7180;
+  color: #888ba1;
 }
 
 .nav-menu a:hover,
@@ -245,7 +359,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover > a {
   text-decoration: none;
-  color: #fff;
+  color: #121212;
 }
 
 .nav-menu a:hover i,
